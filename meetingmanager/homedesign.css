@@ -1,0 +1,56 @@
+a {
+    color: #ffffff;
+  }
+
+td.blue{
+    background-color: #4169e1;
+}
+
+td {
+    width: 30%;
+}
+
+th.gray{
+    background-color: #d3d3d3;
+}
+
+.center{
+    width: 700px;
+    margin:0 auto;
+
+    text-align:center;
+    }
+
+
+table.border {
+    table-layout: fixed;
+    width: 100%;
+ }
+
+ th.width5 {
+    background-color: #d3d3d3;
+    width: 40px;
+}
+    
+td.width10 {
+    width: 100px;
+}
+
+
+ p.left {text-align: left;}
+
+ p.detail {
+    display       : inline-block;
+    font-size     : 8pt;        /* 文字サイズ */
+    text-align    : center;      /* 文字位置   */
+    cursor        : pointer;     /* カーソル   */
+    padding       : 12px 12px;   /* 余白       */
+    background    : #000000;     /* 背景色     */
+    color         : #ffffff;     /* 文字色     */
+    line-height   : 1em;         /* 1行の高さ  */
+    transition    : .3s;         /* なめらか変化 */
+    box-shadow    : 6px 6px 3px #666666;  /* 影の設定 */
+  }
+  p.detail:hover {
+    box-shadow    : none;        /* カーソル時の影消去 */
+  }
